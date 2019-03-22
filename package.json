@@ -1,0 +1,30 @@
+{
+  "name": "@umm/uni_debug_menu",
+  "description": "横向きかつクリックやタップ可能なゲームで使用できるカスタマイズ可能なデバッグメニュー",
+  "homepage": "https://github.com/baba-s/uni-debug-menu",
+  "scripts": {
+    "umm:init": "umm-init",
+    "umm:generate_assembly_definition": "umm-generate_assembly_definition",
+    "umm:module:install": "umm-module-install",
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
+  },
+  "author": {
+    "name": "baba-s",
+    "url": "https://github.com/baba-s"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:baba-s/uni-debug-menu"
+  },
+  "files": [
+    "Assets"
+  ],
+  "dependencies": {
+    "@umm/scripts": "umm/scripts#^1.0.0"
+  },
+  "devDependencies": {},
+  "version": "1.0.0"
+}
