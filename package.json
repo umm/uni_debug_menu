@@ -21,7 +21,7 @@
     "Assets"
   ],
   "dependencies": {
-    "@umm/scripts": "github:umm/scripts"
+    "@umm/scripts": "github:umm/scripts#^1.0.0"
   },
   "devDependencies": {},
   "version": "1.0.0"
