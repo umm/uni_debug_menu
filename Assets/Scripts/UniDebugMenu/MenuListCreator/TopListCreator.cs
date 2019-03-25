@@ -28,6 +28,13 @@ namespace UniDebugMenu
         //==============================================================================
         public override int Count => m_list.Count;
 
+        public override ActionData[] OptionActionList => new[]
+        {
+            new ActionData("ボタン隠す", () => UniDebugMenuScene.SetOpenButtonVisible(false)),
+            new ActionData("ボタン表示", () => UniDebugMenuScene.SetOpenButtonVisible(true)),
+            new ActionData("デバッグ削除", UniDebugMenuScene.DestroyAndUnloadScene),
+        };
+
         //==============================================================================
         // 関数
         //==============================================================================

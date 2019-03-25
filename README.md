@@ -18,5 +18,5 @@ yarn add github:umm/uni_debug_menu
 * BuildSettings に `Assets/Scenes/UniDebugMenuScene` シーンを追加する
 
 ### Custom Debug Scene
-* `Assets/Scripts/UniDebugMenu/ContentsListCreator/*` にデバッグシーン内に表示する項目の設定が存在する
-* `Assets/Scripts/UniDebugMenu/ContentsListCreator/TopListCreator` にて表示項目を指定する
+* `Assets/Scripts/UniDebugMenu/MenuListCreator/*` にデバッグシーン内に表示する項目の設定が存在する
+* `Assets/Scripts/UniDebugMenu/MenuListCreator/TopListCreator` にて表示項目を指定する
