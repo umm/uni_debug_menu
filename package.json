@@ -6,7 +6,9 @@
     "umm:init": "umm-init",
     "umm:generate_assembly_definition": "umm-generate_assembly_definition",
     "umm:module:install": "umm-module-install",
-    "umm:module:uninstall": "umm-module-uninstall"
+    "umm:module:uninstall": "umm-module-uninstall",
+    "postinstall": "npm run --silent umm:module:install",
+    "postuninstall": "npm run --silent umm:module:uninstall"
   },
   "author": {
     "name": "baba-s",
@@ -21,7 +23,7 @@
     "Assets"
   ],
   "dependencies": {
-    "@umm/scripts": "github:umm/scripts#^1.0.0"
+    "@umm/scripts": "umm/scripts#^1.0.0"
   },
   "devDependencies": {},
   "version": "1.0.1"
